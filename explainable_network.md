@@ -23,7 +23,7 @@
 
 #### 2.1 GAMxNN模型
 
-GAMxNN 模型全称为广义加性可解释神经网络模型（Explainable Neural Network based on Generalized Additive Model）[原文链接](papers\1806.01933.pdf)、[张爱军团队改进](papers\1901.03838.pdf)。
+GAMxNN 模型全称为广义加性可解释神经网络模型（Explainable Neural Network based on Generalized Additive Model）[原文链接](papers/1806.01933.pdf)、[张爱军团队改进](papers/1901.03838.pdf)。
 GAMxNN能提供整体和局部解释性，可以可视化呈现。数学上，其模型表示为：
 $$ g(E(Y)) = \beta_0+f_1(x_1)+...+f_m(x_m) $$
 其中$ f_i(x_i) $为**岭函数（任意光滑的函数）**， $ g(.) $为**关联函数**，$ \beta_0 $表示**截距项**。此为**广义加性模型**，相比单纯的线性模型引入非线性，增强表征能力。$ Y $为**待预测值**。
@@ -33,7 +33,7 @@ GAMxNN 模型最终能够输出模型的全局解释，包括特征重要性及�
 
 #### 2.2 GAMINET模型
 
-[原文链接](papers\2003.07132.pdf)
+[原文链接](papers/2003.07132.pdf)
 在 GAMxNN 模型基础上，增加了特征交互项的探索。
 考虑了三种可解释约束：
 

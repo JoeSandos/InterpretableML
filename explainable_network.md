@@ -48,6 +48,12 @@ $$ g(E(Y))=\mu+\Sigma_{i\in S_1}h_i(x_i)+ \Sigma_{(i,j)\in S_2}f_{ij}(x_i,x_j)$$
 GAMINET模型结构图如下：
 ![GAMINET 模型结构图](images/fe4f5e08c04ea3732b0f12bb942dccbdfa2ee80b3ce7469233ff82cc5e337e0d.png)  
 
+> websites explaining GAMs:
+> [Building interpretable models with Generalized additive models in Python](https://medium.com/just-another-data-scientist/building-interpretable-models-with-generalized-additive-models-in-python-c4404eaf5515)
+> [pyGAM official site](https://pygam.readthedocs.io/en/latest/?badge=latest)
+> [GAM: The Predictive Modeling Silver Bullet](https://multithreaded.stitchfix.com/blog/2015/07/30/gam/)
+> [pyGAM : Getting Started with Generalized Additive Models in Python](https://codeburst.io/pygam-getting-started-with-generalized-additive-models-in-python-457df5b4705f)
+
 #### 2.3 EBM模型
 
 [原文链接](papers/10.1.1.433.8241.pdf)全称为 Explainable Boosting Machine，是由 Boosting Machine 改良而来，精度可与随机森林、提升树模型相媲美。
